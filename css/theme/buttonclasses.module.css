@@ -1,0 +1,43 @@
+.root {
+  /* Default Button styles */
+  background-color: #fe6a69;
+  color: var(--mantine-color-white);
+
+  &:hover {
+    background-color: #fe6a69;
+  }
+
+  &:focus {
+    /* outline: 2px solid #937df8; */
+  }
+
+  /* secondary variant */
+  &[data-variant="secondary"] {
+    background-color: #79523e;
+    color: var(--mantine-color-white);
+    border-width: 0;
+
+    &:hover {
+      /* background-color: #fe6a69; */
+    }
+
+    &:focus {
+      /* outline: 2px solid #b5895a; */
+    }
+  }
+
+  /* Primary variant */
+  &[data-variant="primary"] {
+    background-color: #9e7afe;
+    color: var(--mantine-color-white);
+
+    &:hover {
+      background-color: #5a6268;
+    }
+
+    &:focus {
+      /* outline: 2px solid #5a6268; */
+    }
+  }
+
+}

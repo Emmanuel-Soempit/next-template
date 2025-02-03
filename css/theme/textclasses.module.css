@@ -1,0 +1,19 @@
+.root {
+  /* Styles for the TextInput component */
+
+  input {
+    /* Default styles for input */
+      border: #937df8; /* You can adjust or add more default styles if needed */
+      outline: 1px solid #d8d8d8;
+
+    &:focus {
+      border: none; /* Keep it as none if that's intended */
+      outline: 1px solid #937df8; /* Outline color on focus */
+    }
+
+  }
+  .label {
+    font-size: 14;
+    color: #9e7afe; /* Change this to your desired color */
+  }
+}

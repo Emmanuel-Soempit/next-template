@@ -1,0 +1,87 @@
+.root {
+    /* Default Button styles */
+    background-color: #d7b686;
+    color: #ffffff;
+  
+    &:hover {
+      background-color: #b5895a;
+    }
+  
+    &:focus {
+      outline: 2px solid #b5895a;
+    }
+  
+    /* Primary variant */
+    &[data-variant='primary'] {
+      background-color: #d7b686;
+      color: var(--mantine-color-white);
+      border-width: 0;
+  
+      &:hover {
+        background-color: #b5895a;
+      }
+  
+      &:focus {
+        outline: 2px solid #b5895a;
+      }
+    }
+
+    /* Owner variant */
+    &[data-variant='owner'] {
+      background-color: #4a6a9d;
+      color: var(--mantine-color-white);
+      border-width: 0;
+  
+      &:hover {
+        background-color: #0b1d3d;
+      }
+  
+      &:focus {
+        outline: 2px solid #4a6a9d;
+      }
+    }
+    
+    /* Employee variant */
+    &[data-variant='employee'] {
+      background-color: #4adaa0;
+      color: var(--mantine-color-white);
+      border-width: 0;
+  
+      &:hover {
+        background-color: #4adaa0;
+      }
+  
+      &:focus {
+        outline: 2px solid #4adaa0;
+      }
+    }
+  
+    /* Secondary variant */
+    &[data-variant='secondary'] {
+      background-color: #182327;
+      color: #ffffff;
+  
+      &:hover {
+        background-color: #5a6268;
+      }
+  
+      &:focus {
+        outline: 2px solid #5a6268;
+      }
+    }
+  
+    /* Danger variant */
+    &[data-variant='danger'] {
+      background-color: var(--mantine-color-red-9);
+      color: var(--mantine-color-red-0);
+  
+      &:hover {
+        background-color: #c0392b;
+      }
+  
+      &:focus {
+        outline: 2px solid #c0392b;
+      }
+    }
+  }
+  

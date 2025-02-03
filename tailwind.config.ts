@@ -11,6 +11,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        projectgreen: "#00f17d",
+        projectgray: "#fefefe",
+        projectgraydark: "#201c38",
+        projectpurple: "#9e7afe",
+        projectred: "#fe6a69",
+        projectbeige: "#79523e",
+        projectyellowgreen: "#cbed1b",
+        projectyellow: "#f9e14d",
+        projectblue: "#0086de",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
